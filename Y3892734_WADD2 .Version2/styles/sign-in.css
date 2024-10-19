@@ -1,0 +1,66 @@
+#sign-in-logo{
+    width:20%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5vw;
+}
+
+fieldset{
+    display:flex;
+    flex-direction:column;
+    margin-left:5vw;
+    margin-right:5vw;
+    font-size:2vw;
+    font-weight:bold;
+    border-color: #c8c8c8; 
+    border-radius:10px;  
+}
+
+input[type="submit"], input[type ="button"]{
+
+    background-color: #228615;
+    color:white;
+    border-color:rgba(255,218,176,0.2);
+    border-radius:10px;
+    font-size:1.8vw;
+    padding:1vw 6vw;
+    display:block;   
+    margin-left:auto;
+    margin-right:auto; 
+    margin-bottom:5vw;
+}
+
+input[type="text"]{
+    margin-bottom:1vw;
+    margin-top:1vw;
+    border-color: #228615;
+    font-size:1.7vw;
+    box-shadow: 0px 0px 5px 0.5vw #ececec;  
+    padding:1.5vw;   
+    border-radius:30px;
+    border-width:0.2vw;
+}
+p{
+    font-size: 1.5vw;
+    transform:translate(7vw,0px);
+
+}
+
+a p{
+    text-decoration:none;
+    color:gray;
+    font-weight:bolder;
+    font-size:1.5vw;
+    margin-top:-3vw;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.feedback {
+    color:red;
+    transform:translate(2vw,0px);
+    font-weight:bolder;
+}
