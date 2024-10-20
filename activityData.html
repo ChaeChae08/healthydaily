@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>healthy daily weight data </title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/activityData.css" type="text/css" rel="stylesheet">
+    </head> 
+    <body>
+        <header> 
+            <a href="index.html">
+            <img id="logo"
+                 src="images/logo.png"
+                 alt="logo">
+            </a>            
+        </header>
+        <main>
+            <form id="activity">
+                <div id="activityTime">
+                    <label for="exerciseTime">exercise time in a day <sup>*</sup></label>
+                    <input id="exerciseTime" type="text" placeholder="mins" >
+                    <p class="feedback" id="time-feedback"></p>                 
+                </div>
+       
+                <div id="dateOfActivity">
+                    <label for="dateOfExercise">date of exercise <sup>*</sup></label>
+                    <input id="dateOfExercise" type="date" required>
+                    <p class="feedback" id="date-feedback"></p>                
+                </div>
+    
+                <div id="activityType">
+                    <label for="exerciseType"> exercise type</label>
+                    <select id="exerciseType">
+                        <option class="exercise" value="walking"> walking</option>
+                        <option class="exercise" value="running"> running </option>
+                        <option class="exercise" value="swimming"> swimming </option>
+                        <option class="exercise" value="boxing"> boxing </option>
+                        <option class="exercise" value="weightTraining"> weight training</option>
+                        <option class="exercise" value="yoga"> yoga </option>
+                        <option class="exercise" value="tennis"> tennis </option>
+                        <option class="exercise" value="cycling"> cycling</option>
+                        <option class="exercise" value="badminton"> badminton </option>
+                        <option class="exercise" value="others"> others </option>
+                    </select>
+                </div>
+            </form>     
+            <input onclick="change()" id="change-button" type="submit" value="Change">              
+        </main> 
+        <footer>
+        </footer>
+        <script src="js/activityData.js"></script>
+    </body>
+</html>

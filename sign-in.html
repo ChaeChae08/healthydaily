@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>healthy daily sign in </title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/sign-in.css" type="text/css" rel="stylesheet">
+    </head> 
+    <body>
+        <header> 
+
+            <!--users can go to main page by clicking the logo image-->
+            <a href="index.html">
+                <img id="sign-in-logo"
+                     src="images/logo.png"
+                     alt="logo">
+            </a>
+               
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Sign In</legend>
+                    
+                    <input id="ID.text" type="text" placeholder="ID" required>
+                    <p class="feedback" id="ID-feedback"></p>   
+
+                    <input id="password.text" type="text" placeholder="Password" >
+                    <p class="feedback" id="password-feedback"></p>  
+
+                </fieldset>
+
+            <p class="feedback" id="notMatch"></p>
+            <input onclick="signIn()" id="sign-in-Button" type="submit" value="Sign In"> 
+            <a href="sign-up.html"><p>Sign Up</p></a> <!-- a link to sign up-->
+        </form>
+        </main> 
+        <footer>
+
+        </footer>
+        <script src="js/sign-in.js"></script>
+    </body>
+</html>
